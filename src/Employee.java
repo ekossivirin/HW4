@@ -1,6 +1,6 @@
 import java.util.Locale;
 
-public class Employee implements Payable {
+public abstract class Employee implements Payable {
     private String employeeId;
     private String name;
 
@@ -26,7 +26,7 @@ public class Employee implements Payable {
     }
 
     public double getAverageMonthlySalary() {
-        return 0;
+        return calculatePay();
     }
 
     @Override
@@ -35,7 +35,5 @@ public class Employee implements Payable {
     }
 
     @Override
-    public void calculatePay() {
-        System.out.println("Calculating");
-    }
+    public abstract double calculatePay();
 }
