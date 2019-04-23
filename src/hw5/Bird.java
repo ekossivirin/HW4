@@ -1,4 +1,4 @@
-package HW5;
+package hw5;
 
 public abstract class Bird {
     // TODO fix class declaration

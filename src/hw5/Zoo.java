@@ -1,6 +1,6 @@
-package HW5;
+package hw5;
+
 import java.util.List;
-import java.util.ArrayList;
 
 public class Zoo {
 
@@ -14,8 +14,7 @@ public class Zoo {
         // TODO fix method declaration
         System.out.println("Feeding birds");
         // TODO print birds in the cycle
-        for (Bird value: list){
-            System.out.println(value);
+        for (Object value: list){System.out.println(value);
         }
     }
 
@@ -41,13 +40,13 @@ public class Zoo {
      * @param list    list of birds
      * @param newBird bird to add
      */
-    public static void registerBird(List<Bird> list, Bird newBird) {
+    public static void registerBird(List<? super Bird> list, Bird newBird) {
         // TODO fix method declaration
         System.out.println("Adding bird to the birds list");
         // TODO add bird to list
         // TODO print birds in the cycle
         list.add(newBird);
-        for (Bird value: list){
+        for (Object value: list){
             System.out.println(value);
         }
     }

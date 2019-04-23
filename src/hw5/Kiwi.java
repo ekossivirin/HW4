@@ -1,13 +1,12 @@
-package HW5;
+package hw5;
 
-public class Swallow extends FlyingBird {
+public class Kiwi extends NonFlyingBird{
     // TODO fix class declaration
-
 
 
     // TODO override toString method by returning a string with the class name
 //    @Override
 //    public String toString(){
-//        return "Swallow";
+//        return "Kiwi";
 //    }
 }

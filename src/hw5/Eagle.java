@@ -1,4 +1,4 @@
-package HW5;
+package hw5;
 
 public class Eagle extends FlyingBird {
     // TODO fix class declaration

@@ -1,4 +1,5 @@
-package HW5;
+package hw5;
+
 import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertTrue;
 

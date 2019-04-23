@@ -1,4 +1,4 @@
-package HW5;
+package hw5;
 
 public abstract class FlyingBird extends Bird{
     // TODO fix class declaration
